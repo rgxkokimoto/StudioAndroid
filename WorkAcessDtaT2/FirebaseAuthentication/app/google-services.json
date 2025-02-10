@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909537658265",
+    "project_id": "fir-autenticationclase-fc5df",
+    "storage_bucket": "fir-autenticationclase-fc5df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909537658265:android:40319fc5b88e9f13967f08",
+        "android_client_info": {
+          "package_name": "dam.pmdm.firebaseauthentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANfKOimDygmC2TQC_qLuCCFhdw_k7Vf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

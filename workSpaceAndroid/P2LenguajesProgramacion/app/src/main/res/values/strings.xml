@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">P2LenguajesProgramacion</string>
+    <string name="lenguajes_de_programaci_n">Lenguajes de Programación</string>
+    <string name="ver_descripcion">Ver Descripcion</string>
+    <string name="ver_otro_lenguaje">Ver Otro Lenguaje</string>
+</resources>

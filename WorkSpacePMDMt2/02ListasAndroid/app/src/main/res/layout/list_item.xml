@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="match_parent"
+    layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user_instance"/>
+
+        <LinearLayout
+            android:id="@+id/llContenedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tvFirstNameLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name Last Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32620157895",
+    "project_id": "firstrealtimedtabaseprub-b6e26",
+    "storage_bucket": "firstrealtimedtabaseprub-b6e26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32620157895:android:3bd3c4aa48fc7aacb917e2",
+        "android_client_info": {
+          "package_name": "com.example.a02prubsrealtimedtabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK--i5-Vg0hw2mUGY97y-5m6gnAev1--Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pt4ApcHechosCuriosos3</string>
+    <string name="hechos_curiosos">Fun Facts</string>
+    <string name="presiona_el_bot_n_para_ver_un_hecho_curioso">press the bottom to  a fun fact</string>
+    <string name="mostrar_hecho_curioso">Show Fun Fact</string>
+</resources>

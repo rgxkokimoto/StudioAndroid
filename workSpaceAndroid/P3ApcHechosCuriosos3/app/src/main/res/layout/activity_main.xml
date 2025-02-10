@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/res/layout/act.xml aqui el codigo visual de las vistas-->
+<!-- Para modifiacar propiedades desde el layout con metodos debe existir un
+    id para poder nombrarlo-->
+
+<!--
+    Inmunized: tenías un error porque usabas el metodo Onclick (line:69)
+    android:onClick="mostrarHechoCurioso" y este no esta adaptado para el Layout Constraint
+    por lo que cambiamos el tipo de Layout a relative y listo,
+
+    AXEL DICE QUE PUEDES USAR otra cosa investiga
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+       <!--
+       Título del TextView
+       Como puedes ver aqui usamos dp y sp en las medidas esto es asi porque ayudan a
+       tener una interfaz mas flexible que se adapte a varios dispositivos moviles
+       -->
+       <!--
+       CONSTANTES en android studio con xml se suelen extablecer clase para establecer patrones de diseño
+       constantes como los colores (colors) y el tamaño de texto Puedes crearlas tu mismo.
+       -->
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:text="@string/hechos_curiosos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/tvHechoCurioso"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/presiona_el_bot_n_para_ver_un_hecho_curioso"
+        android:textSize="18sp" />
+
+
+    <!--
+    Botón que actualizará el hecho curioso
+    se altera su layout por posición y sus caracteristicas color y tamaño
+
+    usa el métodod onClick como ves llama a un metodo que altera
+    el texto de tvHechoCurioso. aunque tambien altera el color de fondo.
+    (en mi opinión esto deberia estar en otro metodo separado).
+    -->
+
+    <Button
+        android:id="@+id/btnVerHecho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="65dp"
+        android:backgroundTint="#AB66AF4C"
+        android:onClick="mostrarHechoCurioso"
+        android:text="@string/mostrar_hecho_curioso"
+        android:textSize="@dimen/button_text"
+
+        />
+
+    <!--Asi puedes asignar clases xml constantes definidas por ti a la app-->
+</RelativeLayout>

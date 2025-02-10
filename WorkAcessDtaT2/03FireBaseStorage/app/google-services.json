@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628304208491",
+    "project_id": "fir-storage-cb349",
+    "storage_bucket": "fir-storage-cb349.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628304208491:android:433b911218444da9b8872e",
+        "android_client_info": {
+          "package_name": "com.example.a03firebasestorage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBDKfc3r23l2IcZX6J2euf_ezZWEzKMVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

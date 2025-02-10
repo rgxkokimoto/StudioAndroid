@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/res/layout/act.xml aqui el codigo visual de las vistas-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Título del TextView -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:text="Hechos Curiosos"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textSize="24sp"
+        />
+
+    <!-- Hecho Curioso mostrado -->
+    <TextView
+        android:id="@+id/tvHechoCurioso"
+        android:text="Presiona el botón para ver un hecho curioso"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textSize="18sp" />
+
+
+
+    <!-- Botón que actualizará el hecho curioso
+    se altera su layout por posición y sus caracteristicas color y tamaño-->
+    <Button
+        android:id="@+id/btnVerHecho"
+        android:text="Mostrar Hecho Curioso"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvHechoCurioso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AB66AF4C"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

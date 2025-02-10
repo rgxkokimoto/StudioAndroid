@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">P14_Pract6_EnBuscaDelIntentPerdido</string>
+    <string name="hola_la_b_squeda_va_a_comenzar_estate_muy_atento_a_las_indicaciones_del_juego_s_lo_as_podr_s_encontrar_el_intent_perdido">Hola, la búsqueda va a comenzar. Estate muy atento a las indicaciones del juego, sólo así podrás encontrar el Intent perdido.</string>
+
+    <!--STRINGS CON FORMAT-->
+    <string name="tv_Bienvenida">Te doy la bienvenida %1$s , ya no hay vuelta atrás, ahora sólo hace falta que tu valentía y tu sentido común te ayuden a encontrar el Intent que estamos buscando.</string>
+    <string name="Name">%1$s</string>"
+
+    <string name="atajo_corto">Atajo corto</string>
+    <string name="atajo_largo">Atajo Largo</string>
+    <string name="fallaste_pide_ayuda">VALLA PARECE QUE HAS FALLADO AL ESCOGER EL CAMINO:( \nPÙLSAME PARA PEDIR AYUDA</string>
+    <string name="abre_la_puerta">Abre la puerta</string>
+    <string name="coge_la_llave_primero">Coge la llave Primero</string>
+    <string name="empezar_la_busqueda">Empezar la busqueda</string>
+    <string name="introduze_tu_nombre_para_comenzar">Introduze tu nombre para comenzar</string>
+    <string name="volver_con_llave">Volver con llave</string>
+    <string name="volver_sin_llave">Volver sin llave</string>
+    <string name="felicidades_has_encontrado_el_intent_solo_tienes_que_hacer_click_para_a_verlo">Felicidades has encontrado el intent, solo tienes que hacer click para a verlo</string>
+    <string name="salir_del_juego">Salir del juego</string>
+</resources>

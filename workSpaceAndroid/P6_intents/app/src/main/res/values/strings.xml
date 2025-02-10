@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P6_intents</string>
+    <string name="escribe_algo">Escribe algo</string>
+    <string name="aqui_habra_un_intent">Aqui habra un intent</string>
+</resources>

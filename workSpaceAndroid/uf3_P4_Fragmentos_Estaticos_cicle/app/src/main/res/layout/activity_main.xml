@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="28dp"
+    tools:context=".MainActivity">
+    <!-- Fragmento 1 -->
+    <!--mal-->
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentT"
+        android:name="dam.pmdm.uf3_p4_fragments7_9tras.TituloFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_titulo" />
+
+
+    <!-- Línea horizontal para separar visualmente -->
+    <View
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/fragmentT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="1dp"
+        />
+
+    <!-- Fragmento 2 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentC"
+        android:name="dam.pmdm.uf3_p4_fragments7_9tras.ContadorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/linea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="88dp"
+        tools:layout="@layout/fragment_contador" />
+</androidx.constraintlayout.widget.ConstraintLayout>

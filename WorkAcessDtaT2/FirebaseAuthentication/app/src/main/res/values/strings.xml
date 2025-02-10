@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <string name="login">Login</string>
+    <string name="login_email">Introduce el email</string>
+    <string name="login_email2">Email</string>
+    <string name="login_contrasenia">Introduce la contraseña</string>
+    <string name="login_contrasenia2">Contraseña</string>
+    <string name="login_btnLogin">Iniciar Sesion</string>
+    <string name="registro">Registro</string>
+    <string name="login_btnRegistro">Registrarse</string>
+    <string name="main_inicio">Aqui van los datos del usuario</string>
+    <string name="main_btnLogout">Logout</string>
+    <string name="registro_volver_atras">¿Ya tienes cuenta?\n Haz click aqui para iniciar sesion</string>
+    <string name="no_tienes_cuenta_n_haz_click_aqui_para_registrarte">No tienes cuenta?\n Haz click aqui para registrarte</string>
+</resources>

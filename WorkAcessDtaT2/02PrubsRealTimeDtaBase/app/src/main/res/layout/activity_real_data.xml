@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RealData">
+
+    <ImageView
+        android:id="@+id/ivFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/frdb"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectura de datos"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFirebase" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:hint="Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:hint="Nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserName" />
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:hint="Apellido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstName" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:hint="Edad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLastName" />
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:text="Leer Registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAge" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

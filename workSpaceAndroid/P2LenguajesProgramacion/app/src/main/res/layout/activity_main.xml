@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F64242"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lenguajes_de_programaci_n"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLenguaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Java"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnVerDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_descripcion"
+        android:backgroundTint="#51B46D"
+        android:layout_marginTop="12dp"
+        />
+
+    <Button
+        android:id="@+id/btnVerOtroLenguaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_otro_lenguaje"
+        android:backgroundTint="#007AFF"
+        android:layout_margin="6dp"
+        />
+
+
+</LinearLayout>

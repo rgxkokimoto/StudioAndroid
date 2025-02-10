@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">01ProgressBars</string>
+    <string name="comenzar_tarea">Comenzar tarea</string>
+    <string name="ir_a_progress_bar_determinada">Ir a Progress Bar Determinada</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="@string/Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+     Hola esta propiedad es para ajustar los bordes y de los botones a un nivel
+     mas interno.
+     Estuve mirando por internet y la opción más sencilla es la siguiente:
+
+     La carpeta drawable sirve para modificar y alterar recursos graficos con
+     código ademas de imagenes muy util para alterar a tu gusto el aspecto de
+     tus componentes voy a investigar más.
+
+     creé un archivo xml rectagle_rounded_buttom en res/drawable
+     y luego aplico la propiedad en los botones con el id del xml
+
+    android:background="@drawable/rectagle_rounded_buttom"
+
+     -->
+
+    <Button
+        android:id="@+id/btnOpenDoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abre_la_puerta"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/rectagle_rounded_buttom"
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPickKey"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPickKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectagle_rounded_buttom"
+        android:text="@string/coge_la_llave_primero"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

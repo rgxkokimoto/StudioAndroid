@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Uf3_P2_RotacionPantallaRecuperarActivity_PEPINO" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Uf3_P2_RotacionPantallaRecuperarActivity_PEPINO" parent="Base.Theme.Uf3_P2_RotacionPantallaRecuperarActivity_PEPINO" />
+</resources>

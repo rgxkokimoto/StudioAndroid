@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.9"
+        android:src="@drawable/imagenfondo"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="120dp"
+        android:paddingBottom="12dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvLogin"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColorHint="@color/white"
+        android:paddingBottom="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_email"
+            android:text="@string/login_email2"
+            android:textColor="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tiEmail"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColorHint="@color/white"
+        android:paddingBottom="24dp"
+        app:passwordToggleEnabled="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContrasenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_contrasenia"
+            android:text="@string/login_contrasenia2"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btnLogin"
+        app:layout_constraintTop_toBottomOf="@id/tiContrasenia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#233363"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvClickRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        android:gravity="center"
+        android:text="@string/no_tienes_cuenta_n_haz_click_aqui_para_registrarte"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

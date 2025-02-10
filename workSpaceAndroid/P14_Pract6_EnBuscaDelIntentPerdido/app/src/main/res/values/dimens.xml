@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Esto tiene sentido cuando la app sigue un patron de diseño completo y supera ciertos tamaños-->
+    <dimen name="margen">16dp</dimen>
+</resources>

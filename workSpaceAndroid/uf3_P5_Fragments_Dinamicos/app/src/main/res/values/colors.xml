@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Mis colores principales para la aplicación
+        trata de tener siempre un color primario para toda la aplicacón
+
+     -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primary">#EE0000</color>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P5_AdivinElNumero</string>
+    <string name="debes_adivinar_un_n_mero_entre_1_y_100">Debes adivinar un número entre 1 y 100</string>
+    <string name="prueba_este_n_mero">PRUEBA ESTE NÚMERO</string>
+    <string name="introduce_un_n_mero_entre_1_y_100">Introduce un número entre 1 y 100</string>
+    <string name="has_perdido">¡Has perdido!</string>
+    <string name="has_ganado">¡Has ganado!</string>
+    <string name="el_n_mero_secreto_es_mayor">El número secreto es mayor</string>
+    <string name="el_n_mero_secreto_es_menor">El número secreto es menor</string>
+    <string name="intentos_restantes">"Intentos restantes: "</string>
+</resources>
+
+<!-- se pueden para parametrizar variables dentro de los strings con codigo en el main usando %1$d
+
+    <string name="intentos_restantes">"Intentos restantes: %1$d"</string>
+
+    1: numero del parametro
+    d: tipo de dato
+-->

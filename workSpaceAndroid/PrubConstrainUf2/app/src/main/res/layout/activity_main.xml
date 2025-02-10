@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="#E0F476">
+
+   <!-- layout_constraintBottom_toBottomOf
+   lo envia para parent segun el el padre  en este
+   caso el layout
+   layout_constraintEnd_toStartOf al principio
+   layout_constraintTop_toTopOf al principio pero mas correcta
+    -->
+   <Button
+       android:id="@+id/boton1"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       android:text="Boton 1"
+       />
+
+   <Button
+       android:id="@+id/btn2"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:text="Boton 2"
+       app:layout_constraintStart_toEndOf="@+id/boton1"
+       app:layout_constraintEnd_toEndOf="parent"/>
+
+   <Button
+      android:id="@+id/btn3" android:layout_width="0dp"
+       android:layout_height="wrap_content"
+      android:text="bototn 3"
+       app:layout_constraintTop_toBottomOf="@+id/boton1"
+       app:layout_constraintStart_toStartOf="parent"
+      />
+
+   <Button
+       android:id="@+id/btn4"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:text="btoton 4"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toEndOf="@id/btn3"
+       app:layout_constraintTop_toBottomOf="@id/btn2" />
+   />
+
+   <Button
+       android:id="@+id/btn5"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:text="boton 5"
+
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+
+      />
+
+   <EditText
+       android:id="@+id/edtEscribe"
+       android:layout_width="365dp"
+       android:layout_height="42dp"
+       android:layout_marginBottom="8dp"
+       android:hint="Hola escribe algo lol ......"
+       android:gravity="center"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent" />
+
+   <ImageView
+       android:id="@+id/imageView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="80dp"
+       app:layout_constraintBottom_toBottomOf="@+id/edtEscribe"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.492"
+       app:layout_constraintStart_toStartOf="parent"
+       app:srcCompat="@drawable/fondescr" />
+
+   <ImageButton
+       android:id="@+id/imageButton"
+       android:layout_width="364dp"
+       android:layout_height="52dp"
+       android:layout_marginBottom="56dp"
+       app:layout_constraintBottom_toTopOf="@+id/imageView3"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:srcCompat="@drawable/ic_launcher_foreground" />
+
+   <RadioButton
+       android:id="@+id/radioButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="73dp"
+       android:text="RadioButton1"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+   <RadioButton
+       android:id="@+id/radioButton2"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:text="RadioButton2"
+       app:layout_constraintBottom_toTopOf="@+id/btn5"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

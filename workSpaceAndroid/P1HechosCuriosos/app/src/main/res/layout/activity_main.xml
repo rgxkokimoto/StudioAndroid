@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D6DFD9"
+    android:paddingHorizontal="64dp"
+    android:paddingVertical="95dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSabiasQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSabiasQue"
+        android:layout_centerHorizontal="true"
+        android:textColor="#80000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvHechoCurioso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/las_hormigas_se_estiran_cuando_se_despiertan_por_la_ma_ana"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnVerOtroHecho"
+        android:layout_width="165dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:backgroundTint="#6ABC2B"
+        android:drawableTint="#6FD740"
+        android:text="@string/ver_otro_hecho"
+        android:textSize="25sp"
+        android:textColor="#4A148C" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Uf3_P5_Fragments_Dinamicos" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <!-- TODO Aplicar cololores para el resto de la app de obs -->
+    </style>
+
+    <style name="Theme.Uf3_P5_Fragments_Dinamicos" parent="Base.Theme.Uf3_P5_Fragments_Dinamicos" />
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">uf3_P3_Incremento</string>
+    <string name="incrementar">Incrementar:</string>
+    <string name="reiniciar">Reiniciar</string>
+</resources>

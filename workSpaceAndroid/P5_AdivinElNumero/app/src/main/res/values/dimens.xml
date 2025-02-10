@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtS_Normal">18dp</dimen>
+    <dimen name="tv_Pista">24sp</dimen>
+</resources>
