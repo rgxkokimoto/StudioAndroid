@@ -40,8 +40,8 @@ public class UserRecyclerAdapter extends RecyclerView.Adapter<UserRecyclerAdapte
 
         // Libreria picasso para cargar imagenes
         Picasso.get().load(user.getProfileImage())
-                .placeholder(R.drawable.imagen) // Imagen por defecto por si no carga
-                .error(R.drawable.imagen) // Imagen por si falla
+                .placeholder(R.drawable.imagen6) // Imagen por defecto por si no carga
+                .error(R.drawable.imagen2) // Imagen por si falla
                 .into(holder.imgProfile);
 
         holder.tvFirstNameLastName.setText(user.getFirstName() + " " + user.getLastName());

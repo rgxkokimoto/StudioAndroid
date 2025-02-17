@@ -18,7 +18,7 @@
             android:id="@+id/imgProfile"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/imagen" />
+            android:src="@drawable/imagen2" />
         <LinearLayout
             android:id="@+id/llContenedor"
             android:layout_width="wrap_content"
@@ -57,19 +57,14 @@
 
                 android:textSize="14sp" />
             <TextView
-
                 android:id="@+id/tvAge"
-
                 android:layout_width="wrap_content"
-
                 android:layout_height="wrap_content"
-
                 android:text="Age"
-
                 android:textColor="#000000"
-
                 android:textSize="14sp" />
         </LinearLayout>
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
  
