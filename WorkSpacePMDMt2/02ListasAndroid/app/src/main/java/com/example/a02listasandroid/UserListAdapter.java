@@ -16,7 +16,6 @@ public class UserListAdapter extends BaseAdapter {
 
     private List<User> userList;
 
-
     // Constructor necesario para instaciar UserListAdapter
     public UserListAdapter(Context context, List<User> userList) {
         this.context = context;

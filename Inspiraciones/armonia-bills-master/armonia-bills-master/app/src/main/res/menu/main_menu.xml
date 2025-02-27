@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/botNavVarHome"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/botNavVarHistorial"
+        android:enabled="true"
+        android:icon="@drawable/baseline_history_24"
+        android:title="@string/historial" />
+    <item
+        android:id="@+id/botNavVarMisDeudas"
+        android:enabled="true"
+        android:icon="@drawable/baseline_account_balance_wallet_24"
+        android:title="@string/mi_balance" />
+    <item
+        android:id="@+id/botNavVarPerfil"
+        android:enabled="true"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/mi_perfil" />
+</menu>

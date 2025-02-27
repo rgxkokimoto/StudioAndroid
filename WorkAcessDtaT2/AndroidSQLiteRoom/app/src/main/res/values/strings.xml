@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidSQLiteRoom</string>
+    <string name="introduce_el_nombre">Introduce el nombre</string>
+    <string name="introduce_el_apellido">Introduce el apellido</string>
+    <string name="introduce_la_edad">Introduce la edad</string>
+    <string name="introduce_el_usario">Introduce el usario</string>
+    <string name="insertar">Insertar</string>
+    <string name="consultar">Consultar</string>
+    <string name="borrar_todo">Borrar todo</string>
+    <string name="usuarios">Usuarios:</string>
+    <string name="acutalizar_usuario">Acutalizar usuario</string>
+    <string name="eliminar_usuario">Eliminar usuario</string>
+    <string name="_6userwhitj">6UserWhitJ</string>
+    <string name="_5lastuser">5LastUser</string>
+    <string name="_4countusers">4countUsers</string>
+    <string name="_3dellbyage">3dellByAge</string>
+    <string name="deleteall">deleteAll</string>
+    <string name="_2bylastname">2ByLastName</string>
+    <string name="_1findbyage">1findByAge</string>
+    <string name="find">find</string>
+    <string name="_7mediaage">7MediaAge</string>
+    <string name="_8youngestuser">8YoungestUser</string>
+    <string name="_9longestname">9LongestName</string>
+    <string name="_10countpalind">10CountPalind</string>
+</resources>

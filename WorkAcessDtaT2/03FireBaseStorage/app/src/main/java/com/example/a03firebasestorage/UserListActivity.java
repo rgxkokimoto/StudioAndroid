@@ -45,7 +45,7 @@ public class UserListActivity extends AppCompatActivity {
         adapter = new UserRecyclerAdapter(userList);
         binding.recyclerView.setAdapter(adapter);
 
-        // ValueEventLissener Permite acualizarse automeaticamente en tiempo real
+        // ValueEventLissener Permite acualizarse automaticamente en tiempo real
         dbref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

@@ -18,7 +18,6 @@ public class UserDetailActivity extends AppCompatActivity {
 
     private ActivityUserDetailBinding binding;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

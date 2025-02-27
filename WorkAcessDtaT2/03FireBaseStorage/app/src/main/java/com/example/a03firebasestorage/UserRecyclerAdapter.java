@@ -15,14 +15,11 @@ import java.util.List;
 
 public class UserRecyclerAdapter extends RecyclerView.Adapter<UserRecyclerAdapter.UserViewHolder> {
 
-
-
     private final List<User> userList;
 
     public UserRecyclerAdapter(List<User> userList) {
         this.userList = userList;
     }
-
 
     @NonNull
     @Override

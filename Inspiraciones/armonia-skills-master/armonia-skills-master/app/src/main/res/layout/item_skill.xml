@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewSkill"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margen"
+    android:background="@color/material_dynamic_primary0"
+    app:cardCornerRadius="@dimen/margen"
+    app:cardElevation="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/ivSkill"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="200dp"-->
+        <!--            android:scaleType="centerCrop"/>-->
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/sliderSkill"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/tvTituloSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/margen"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/md_theme_onSurface"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margen"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/margen"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivUser"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_weight="6"
+                android:singleLine="true"
+                android:textColor="@color/md_theme_onSurface"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvPrecioSkill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margen"
+                android:layout_marginEnd="@dimen/margen"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/md_theme_onSurface"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
